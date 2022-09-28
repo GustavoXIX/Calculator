@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:barrierMargin="20dp">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/ImageCal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:scrollbarSize="4dp"
+            android:text="@string/Bienvenido"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cal"
+             />
+        <TextView
+             android:id="@+id/TextV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduzca"
+            android:padding="8dp"
+            />
+
+        <EditText
+            android:id="@+id/Num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/num1"
+            android:padding="8dp"
+            android:textColor="@color/gray"
+            />
+        <TextView
+             android:id="@+id/TextV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduzca"
+            android:padding="8dp"
+            />
+
+        <EditText
+            android:id="@+id/Num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/num2"
+            android:padding="8dp"
+            android:textColor="@color/gray"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/BtnLinear"
+            android:paddingEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <Button
+            android:id="@+id/Btnsuma"
+            android:paddingEnd="5dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/suma"
+            android:layout_alignParentBottom="true"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <Button
+            android:id="@+id/BtnRestar"
+            android:paddingEnd="10dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/Restart"
+            android:layout_alignParentBottom="true"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <Button
+            android:id="@+id/BtnMult"
+            android:paddingEnd="20dp"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="@string/Mult"
+            android:layout_alignParentBottom="true"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <Button
+            android:id="@+id/BtnDiv"
+            android:paddingEnd="30dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/Div"
+            android:layout_alignParentBottom="true"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/EditResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+</layout>

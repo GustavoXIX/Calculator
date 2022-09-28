@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="Bienvenido">Bienvenido a APP calculadora</string>
+    <string name="introduzca">Introduzca el primer número</string>
+    <string name="num1">Numero 1</string>
+    <string name="num2">Numero 2</string>
+    <string name="suma">SUMA</string>
+    <string name="Div">DIV</string>
+    <string name="Mult">MULT</string>
+    <string name="Restart">RESTAR</string>
+    <string name="resultado">Tú resultado es:</string>
+    <string name="no_vacio">No puede haber campos vacíos</string>
+</resources>
